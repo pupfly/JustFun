@@ -17,6 +17,7 @@
 #include<unistd.h>  
 #include<stdio.h>  
 #include <stdlib.h>
+
 int global = 5;
 
 int main()  
@@ -38,7 +39,9 @@ int main()
 	        printf("I am the child process,ID is %d\n",getpid());  
 			t++;
 		}
-			exit(0);
+//		_exit(0);
+		exit(0);
+//		return 0;
 	}  
     else  
     {  

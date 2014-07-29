@@ -52,6 +52,7 @@ int main(void)
 					sleep(1);
 					k--;
 				}
+			exit(0);
 			break;
 		case 2:
 			while (k > 0)
